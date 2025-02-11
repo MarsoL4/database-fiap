@@ -5,7 +5,7 @@ CREATE TABLE pais (
 
 CREATE TABLE estado (
     id_estado   NUMBER PRIMARY KEY,
-    nome_estado VARCHAR2,
+    nome_estado VARCHAR2(30),
     id_pais     NUMBER
 );
 
@@ -31,7 +31,7 @@ CREATE TABLE bairro (
 
 ALTER TABLE bairro
     ADD CONSTRAINT fk_bairro FOREIGN KEY ( id_cidade )
-        REFERENCES e ( id_cidade );
+        REFERENCES cidade ( id_cidade );
 
 CREATE TABLE end_cliente (
     id_endereco NUMBER PRIMARY KEY,
@@ -45,5 +45,3 @@ CREATE TABLE end_cliente (
 ALTER TABLE end_cliente
     ADD CONSTRAINT fk_end_cliente FOREIGN KEY ( id_bairro )
         REFERENCES bairro ( id_bairro );
-        
-        
