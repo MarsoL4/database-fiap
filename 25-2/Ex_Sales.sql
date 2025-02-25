@@ -1,6 +1,6 @@
 --SELECT * FROM SALES; --kaggle
 
--- EXERCÕCIO 1) CRIAR UM BLOCO PARA TRAZER A QUANTIDADE DE PEDIDOS POR PAÕS E A QUANTIDADE DE PRODUTOS
+-- EXERC√çCIO 1) CRIAR UM BLOCO PARA TRAZER A QUANTIDADE DE PEDIDOS POR PA√çS E A QUANTIDADE DE PRODUTOS
 
 set serveroutput on;
 
@@ -24,9 +24,9 @@ BEGIN
     GROUP BY
         country;
 
-    dbms_output.put_line('A QUANTIDADE DE PEDIDOS DO PAÕS '
+    dbms_output.put_line('A QUANTIDADE DE PEDIDOS DO PA√çS '
                          || pais
-                         || ' … '
+                         || ' √â '
                          || pedidos
                          || 'QUANTIDADE DE PRODUTOS: '
                          || qtd);
