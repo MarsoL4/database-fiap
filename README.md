@@ -1,2 +1,1 @@
-# PLSQL
-<p>Aula de Mastering Relational and Non-Relational DataBase na FIAP</p>
+<p> Repositório destinado aos scripts SQL desenvolvidos nas aulas de Mastering Relational and Non-Relational Database na FIAP <p>
